@@ -1,16 +1,24 @@
 {
   "name": "nasa-api.js",
   "version": "1.0.0",
-  "description": "Wrapper for NASA APIs",
+  "description": "A NodeJS library for interacting with NASA API",
   "main": "src/index.js",
   "scripts": {
     "test": "eslint --ext .js --ignore-path .gitignore ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codersupriyo/nasa-api.js.git"
   },
   "keywords": [
     "NASA",
     "NASAAPI",
     "NASA-API.js"
   ],
+  "bugs": {
+    "url": "https://github.com/codersupriyo/nasa-api.js/issues"
+  },
+  "homepage": "https://github.com/codersupriyo/nasa-api.js#readme",
   "author": "Supriyo",
   "license": "MIT",
   "dependencies": {
