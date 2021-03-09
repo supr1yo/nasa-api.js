@@ -1,0 +1,26 @@
+{
+  "name": "nasa-api.js",
+  "version": "1.0.0",
+  "description": "Wrapper for NASA APIs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "eslint --ext .js --ignore-path .gitignore ."
+  },
+  "keywords": [
+    "NASA",
+    "NASAAPI",
+    "NASA-API.js"
+  ],
+  "author": "Supriyo",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-mars": "^1.0.7"
+  },
+  "engines": {
+    "node": ">=14.x"
+  }
+}

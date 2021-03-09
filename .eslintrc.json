@@ -1,0 +1,18 @@
+{
+	"extends": "mars/node",
+	"parserOptions": {
+		"ecmaVersion": 2020
+	},
+	"env": {
+		"node": true
+	},
+	"rules": {
+		"no-negated-condition": "off",
+		"prefer-destructuring": "off",
+		"quotes": [
+			"error",
+			"single"
+		],
+		"quote-props": "off"
+	}
+}
